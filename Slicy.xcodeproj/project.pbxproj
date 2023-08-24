@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C782884F2A975516001523A7 /* SlicyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782884E2A975516001523A7 /* SlicyApp.swift */; };
+		C78288512A975516001523A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78288502A975516001523A7 /* ContentView.swift */; };
+		C78288532A975518001523A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78288522A975518001523A7 /* Assets.xcassets */; };
+		C78288562A975518001523A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78288552A975518001523A7 /* Preview Assets.xcassets */; };
+		C78288602A975518001523A7 /* SlicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782885F2A975518001523A7 /* SlicyTests.swift */; };
+		C782886A2A975518001523A7 /* SlicyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78288692A975518001523A7 /* SlicyUITests.swift */; };
+		C782886C2A975518001523A7 /* SlicyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782886B2A975518001523A7 /* SlicyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C782885C2A975518001523A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78288432A975516001523A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C782884A2A975516001523A7;
+			remoteInfo = Slicy;
+		};
+		C78288662A975518001523A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78288432A975516001523A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C782884A2A975516001523A7;
+			remoteInfo = Slicy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C782884B2A975516001523A7 /* Slicy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slicy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C782884E2A975516001523A7 /* SlicyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlicyApp.swift; sourceTree = "<group>"; };
+		C78288502A975516001523A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C78288522A975518001523A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C78288552A975518001523A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C782885B2A975518001523A7 /* SlicyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlicyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C782885F2A975518001523A7 /* SlicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlicyTests.swift; sourceTree = "<group>"; };
+		C78288652A975518001523A7 /* SlicyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlicyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78288692A975518001523A7 /* SlicyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlicyUITests.swift; sourceTree = "<group>"; };
+		C782886B2A975518001523A7 /* SlicyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlicyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78288482A975516001523A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78288582A975518001523A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78288622A975518001523A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78288422A975516001523A7 = {
+			isa = PBXGroup;
+			children = (
+				C782884D2A975516001523A7 /* Slicy */,
+				C782885E2A975518001523A7 /* SlicyTests */,
+				C78288682A975518001523A7 /* SlicyUITests */,
+				C782884C2A975516001523A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C782884C2A975516001523A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C782884B2A975516001523A7 /* Slicy.app */,
+				C782885B2A975518001523A7 /* SlicyTests.xctest */,
+				C78288652A975518001523A7 /* SlicyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C782884D2A975516001523A7 /* Slicy */ = {
+			isa = PBXGroup;
+			children = (
+				C782884E2A975516001523A7 /* SlicyApp.swift */,
+				C78288502A975516001523A7 /* ContentView.swift */,
+				C78288522A975518001523A7 /* Assets.xcassets */,
+				C78288542A975518001523A7 /* Preview Content */,
+			);
+			path = Slicy;
+			sourceTree = "<group>";
+		};
+		C78288542A975518001523A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C78288552A975518001523A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C782885E2A975518001523A7 /* SlicyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C782885F2A975518001523A7 /* SlicyTests.swift */,
+			);
+			path = SlicyTests;
+			sourceTree = "<group>";
+		};
+		C78288682A975518001523A7 /* SlicyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C78288692A975518001523A7 /* SlicyUITests.swift */,
+				C782886B2A975518001523A7 /* SlicyUITestsLaunchTests.swift */,
+			);
+			path = SlicyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C782884A2A975516001523A7 /* Slicy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C782886F2A975518001523A7 /* Build configuration list for PBXNativeTarget "Slicy" */;
+			buildPhases = (
+				C78288472A975516001523A7 /* Sources */,
+				C78288482A975516001523A7 /* Frameworks */,
+				C78288492A975516001523A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slicy;
+			productName = Slicy;
+			productReference = C782884B2A975516001523A7 /* Slicy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C782885A2A975518001523A7 /* SlicyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78288722A975518001523A7 /* Build configuration list for PBXNativeTarget "SlicyTests" */;
+			buildPhases = (
+				C78288572A975518001523A7 /* Sources */,
+				C78288582A975518001523A7 /* Frameworks */,
+				C78288592A975518001523A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C782885D2A975518001523A7 /* PBXTargetDependency */,
+			);
+			name = SlicyTests;
+			productName = SlicyTests;
+			productReference = C782885B2A975518001523A7 /* SlicyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C78288642A975518001523A7 /* SlicyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78288752A975518001523A7 /* Build configuration list for PBXNativeTarget "SlicyUITests" */;
+			buildPhases = (
+				C78288612A975518001523A7 /* Sources */,
+				C78288622A975518001523A7 /* Frameworks */,
+				C78288632A975518001523A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78288672A975518001523A7 /* PBXTargetDependency */,
+			);
+			name = SlicyUITests;
+			productName = SlicyUITests;
+			productReference = C78288652A975518001523A7 /* SlicyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78288432A975516001523A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C782884A2A975516001523A7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C782885A2A975518001523A7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C782884A2A975516001523A7;
+					};
+					C78288642A975518001523A7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C782884A2A975516001523A7;
+					};
+				};
+			};
+			buildConfigurationList = C78288462A975516001523A7 /* Build configuration list for PBXProject "Slicy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78288422A975516001523A7;
+			productRefGroup = C782884C2A975516001523A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C782884A2A975516001523A7 /* Slicy */,
+				C782885A2A975518001523A7 /* SlicyTests */,
+				C78288642A975518001523A7 /* SlicyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78288492A975516001523A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78288562A975518001523A7 /* Preview Assets.xcassets in Resources */,
+				C78288532A975518001523A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78288592A975518001523A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78288632A975518001523A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78288472A975516001523A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78288512A975516001523A7 /* ContentView.swift in Sources */,
+				C782884F2A975516001523A7 /* SlicyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78288572A975518001523A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78288602A975518001523A7 /* SlicyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78288612A975518001523A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C782886A2A975518001523A7 /* SlicyUITests.swift in Sources */,
+				C782886C2A975518001523A7 /* SlicyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C782885D2A975518001523A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C782884A2A975516001523A7 /* Slicy */;
+			targetProxy = C782885C2A975518001523A7 /* PBXContainerItemProxy */;
+		};
+		C78288672A975518001523A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C782884A2A975516001523A7 /* Slicy */;
+			targetProxy = C78288662A975518001523A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C782886D2A975518001523A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C782886E2A975518001523A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78288702A975518001523A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slicy/Preview Content\"";
+				DEVELOPMENT_TEAM = VY5B47AVN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olazyto.Slicy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78288712A975518001523A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slicy/Preview Content\"";
+				DEVELOPMENT_TEAM = VY5B47AVN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olazyto.Slicy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C78288732A975518001523A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY5B47AVN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olazyto.SlicyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slicy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slicy";
+			};
+			name = Debug;
+		};
+		C78288742A975518001523A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY5B47AVN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olazyto.SlicyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slicy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slicy";
+			};
+			name = Release;
+		};
+		C78288762A975518001523A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY5B47AVN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olazyto.SlicyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slicy;
+			};
+			name = Debug;
+		};
+		C78288772A975518001523A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY5B47AVN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olazyto.SlicyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slicy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78288462A975516001523A7 /* Build configuration list for PBXProject "Slicy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C782886D2A975518001523A7 /* Debug */,
+				C782886E2A975518001523A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C782886F2A975518001523A7 /* Build configuration list for PBXNativeTarget "Slicy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78288702A975518001523A7 /* Debug */,
+				C78288712A975518001523A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78288722A975518001523A7 /* Build configuration list for PBXNativeTarget "SlicyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78288732A975518001523A7 /* Debug */,
+				C78288742A975518001523A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78288752A975518001523A7 /* Build configuration list for PBXNativeTarget "SlicyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78288762A975518001523A7 /* Debug */,
+				C78288772A975518001523A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78288432A975516001523A7 /* Project object */;
+}
