@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC9F379239053FC7BCFB97D9 /* Pods_Slicy_SlicyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816BEC801EF6C9A15356B64A /* Pods_Slicy_SlicyUITests.framework */; };
+		BEAC06CE972BA278DE5061B9 /* Pods_Slicy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AED23148149426F6E07416 /* Pods_Slicy.framework */; };
+		C742AA702A9B6CCD009299EE /* FinalResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742AA6F2A9B6CCD009299EE /* FinalResult.swift */; };
 		C782884F2A975516001523A7 /* SlicyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782884E2A975516001523A7 /* SlicyApp.swift */; };
 		C78288512A975516001523A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78288502A975516001523A7 /* ContentView.swift */; };
 		C78288532A975518001523A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78288522A975518001523A7 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 		C78288602A975518001523A7 /* SlicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782885F2A975518001523A7 /* SlicyTests.swift */; };
 		C782886A2A975518001523A7 /* SlicyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78288692A975518001523A7 /* SlicyUITests.swift */; };
 		C782886C2A975518001523A7 /* SlicyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782886B2A975518001523A7 /* SlicyUITestsLaunchTests.swift */; };
+		C78288792A979500001523A7 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78288782A979500001523A7 /* K.swift */; };
+		C782887C2A97B2AC001523A7 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782887B2A97B2AC001523A7 /* ResultsView.swift */; };
+		C782887E2A98AF4B001523A7 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782887D2A98AF4B001523A7 /* Pizza.swift */; };
+		D2837B5AD171BB7070AE1C12 /* Pods_SlicyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB19ED3B073113873FB7DF5 /* Pods_SlicyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C3C87F064540BC7640E5126 /* Pods-Slicy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slicy.debug.xcconfig"; path = "Target Support Files/Pods-Slicy/Pods-Slicy.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB19ED3B073113873FB7DF5 /* Pods_SlicyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlicyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44329657F8F166055B85FA36 /* Pods-SlicyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlicyTests.debug.xcconfig"; path = "Target Support Files/Pods-SlicyTests/Pods-SlicyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44C91D7DF4FF025EFB0AF87E /* Pods-Slicy-SlicyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slicy-SlicyUITests.release.xcconfig"; path = "Target Support Files/Pods-Slicy-SlicyUITests/Pods-Slicy-SlicyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DC288FE0EDFA39924A40FB6 /* Pods-Slicy-SlicyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slicy-SlicyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Slicy-SlicyUITests/Pods-Slicy-SlicyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79BF321D830F83D478D4C65A /* Pods-SlicyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlicyTests.release.xcconfig"; path = "Target Support Files/Pods-SlicyTests/Pods-SlicyTests.release.xcconfig"; sourceTree = "<group>"; };
+		816BEC801EF6C9A15356B64A /* Pods_Slicy_SlicyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slicy_SlicyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE138536407BA89D76BF3840 /* Pods-Slicy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slicy.release.xcconfig"; path = "Target Support Files/Pods-Slicy/Pods-Slicy.release.xcconfig"; sourceTree = "<group>"; };
+		C2AED23148149426F6E07416 /* Pods_Slicy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slicy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C742AA6F2A9B6CCD009299EE /* FinalResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalResult.swift; sourceTree = "<group>"; };
 		C782884B2A975516001523A7 /* Slicy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slicy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C782884E2A975516001523A7 /* SlicyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlicyApp.swift; sourceTree = "<group>"; };
 		C78288502A975516001523A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,9 @@
 		C78288652A975518001523A7 /* SlicyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlicyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78288692A975518001523A7 /* SlicyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlicyUITests.swift; sourceTree = "<group>"; };
 		C782886B2A975518001523A7 /* SlicyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlicyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C78288782A979500001523A7 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		C782887B2A97B2AC001523A7 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		C782887D2A98AF4B001523A7 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEAC06CE972BA278DE5061B9 /* Pods_Slicy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2837B5AD171BB7070AE1C12 /* Pods_SlicyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9F379239053FC7BCFB97D9 /* Pods_Slicy_SlicyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DD5180DE183993B0A74B03C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C3C87F064540BC7640E5126 /* Pods-Slicy.debug.xcconfig */,
+				BE138536407BA89D76BF3840 /* Pods-Slicy.release.xcconfig */,
+				4DC288FE0EDFA39924A40FB6 /* Pods-Slicy-SlicyUITests.debug.xcconfig */,
+				44C91D7DF4FF025EFB0AF87E /* Pods-Slicy-SlicyUITests.release.xcconfig */,
+				44329657F8F166055B85FA36 /* Pods-SlicyTests.debug.xcconfig */,
+				79BF321D830F83D478D4C65A /* Pods-SlicyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6D40590510BE53819251B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2AED23148149426F6E07416 /* Pods_Slicy.framework */,
+				816BEC801EF6C9A15356B64A /* Pods_Slicy_SlicyUITests.framework */,
+				3BB19ED3B073113873FB7DF5 /* Pods_SlicyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C78288422A975516001523A7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +124,8 @@
 				C782885E2A975518001523A7 /* SlicyTests */,
 				C78288682A975518001523A7 /* SlicyUITests */,
 				C782884C2A975516001523A7 /* Products */,
+				8DD5180DE183993B0A74B03C /* Pods */,
+				C6D40590510BE53819251B01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,9 +143,11 @@
 			isa = PBXGroup;
 			children = (
 				C782884E2A975516001523A7 /* SlicyApp.swift */,
-				C78288502A975516001523A7 /* ContentView.swift */,
+				C782887F2A98AF53001523A7 /* Models */,
+				C782887A2A97B299001523A7 /* Views */,
 				C78288522A975518001523A7 /* Assets.xcassets */,
 				C78288542A975518001523A7 /* Preview Content */,
+				C78288782A979500001523A7 /* K.swift */,
 			);
 			path = Slicy;
 			sourceTree = "<group>";
@@ -127,6 +177,24 @@
 			path = SlicyUITests;
 			sourceTree = "<group>";
 		};
+		C782887A2A97B299001523A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C78288502A975516001523A7 /* ContentView.swift */,
+				C782887B2A97B2AC001523A7 /* ResultsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C782887F2A98AF53001523A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C782887D2A98AF4B001523A7 /* Pizza.swift */,
+				C742AA6F2A9B6CCD009299EE /* FinalResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C782886F2A975518001523A7 /* Build configuration list for PBXNativeTarget "Slicy" */;
 			buildPhases = (
+				B2E4580356295632D0929A58 /* [CP] Check Pods Manifest.lock */,
 				C78288472A975516001523A7 /* Sources */,
 				C78288482A975516001523A7 /* Frameworks */,
 				C78288492A975516001523A7 /* Resources */,
+				67C2E5123D589344AB7A457E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C78288722A975518001523A7 /* Build configuration list for PBXNativeTarget "SlicyTests" */;
 			buildPhases = (
+				86875DA49D4CF0DD24BFBD80 /* [CP] Check Pods Manifest.lock */,
 				C78288572A975518001523A7 /* Sources */,
 				C78288582A975518001523A7 /* Frameworks */,
 				C78288592A975518001523A7 /* Resources */,
+				0F3BA8012B84FD3BA4319484 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C78288752A975518001523A7 /* Build configuration list for PBXNativeTarget "SlicyUITests" */;
 			buildPhases = (
+				D3A3E1428441B7D1662E33EB /* [CP] Check Pods Manifest.lock */,
 				C78288612A975518001523A7 /* Sources */,
 				C78288622A975518001523A7 /* Frameworks */,
 				C78288632A975518001523A7 /* Resources */,
+				BA3D0FBB1E7601C9180E35E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +326,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F3BA8012B84FD3BA4319484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlicyTests/Pods-SlicyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlicyTests/Pods-SlicyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlicyTests/Pods-SlicyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C2E5123D589344AB7A457E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slicy/Pods-Slicy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slicy/Pods-Slicy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Slicy/Pods-Slicy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86875DA49D4CF0DD24BFBD80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlicyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E4580356295632D0929A58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slicy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3D0FBB1E7601C9180E35E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slicy-SlicyUITests/Pods-Slicy-SlicyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slicy-SlicyUITests/Pods-Slicy-SlicyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Slicy-SlicyUITests/Pods-Slicy-SlicyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A3E1428441B7D1662E33EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slicy-SlicyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C78288472A975516001523A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78288792A979500001523A7 /* K.swift in Sources */,
+				C782887C2A97B2AC001523A7 /* ResultsView.swift in Sources */,
 				C78288512A975516001523A7 /* ContentView.swift in Sources */,
+				C782887E2A98AF4B001523A7 /* Pizza.swift in Sources */,
 				C782884F2A975516001523A7 /* SlicyApp.swift in Sources */,
+				C742AA702A9B6CCD009299EE /* FinalResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +609,7 @@
 		};
 		C78288702A975518001523A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3C87F064540BC7640E5126 /* Pods-Slicy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +639,7 @@
 		};
 		C78288712A975518001523A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE138536407BA89D76BF3840 /* Pods-Slicy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +669,7 @@
 		};
 		C78288732A975518001523A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44329657F8F166055B85FA36 /* Pods-SlicyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +690,7 @@
 		};
 		C78288742A975518001523A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79BF321D830F83D478D4C65A /* Pods-SlicyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +711,7 @@
 		};
 		C78288762A975518001523A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC288FE0EDFA39924A40FB6 /* Pods-Slicy-SlicyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +730,7 @@
 		};
 		C78288772A975518001523A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C91D7DF4FF025EFB0AF87E /* Pods-Slicy-SlicyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
